@@ -1,11 +1,11 @@
-# Portfólio João Túlio
+# Portfolio Yassine Idrissi
 
-Este projeto foi criado com CRA (Create React App).
+This project was created with CRA (Create React App).
 
-Este é meu site para me apresentar, aqui coloco minhas habilidades, portfólio, e formas de contact.
+This is my website to introduce myself, here I put my skills, portfolio, and contact information.
 
 
-## Tecnologias usadas:
+## Technologies used:
 - React
 - Typescript
 - Styled Components
