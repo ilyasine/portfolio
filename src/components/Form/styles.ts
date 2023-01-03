@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   margin-top: 10rem;
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
   h2{
     text-align: center;
     margin-bottom: 2rem;
@@ -52,6 +52,10 @@ export const Container = styled.div`
         width: 100%;
       }
     }
+  }
+
+  @media (max-width: 540px){
+    width: 100%;
   }
 `
 

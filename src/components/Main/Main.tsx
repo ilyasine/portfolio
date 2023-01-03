@@ -179,6 +179,11 @@ export function Main(){
                 "height": 20
               },
               {
+                "src": wordpressIcon,
+                "width": 20,
+                "height": 20
+              },
+              {
                 "src": nodeIcon,
                 "width": 20,
                 "height": 20

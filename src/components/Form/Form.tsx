@@ -7,7 +7,7 @@ import validator from 'validator'
 import Topscroll from '../Footer/Topscroll'
 
 export function Form() {
-  const [state, handleSubmit] = useForm('myyozglw')
+  const [state, handleSubmit] = useForm('xrgvgpqv')
 
   const [validEmail, setValidEmail] = useState(false)
   const [isHuman, setIsHuman] = useState(false)
@@ -45,7 +45,7 @@ export function Form() {
   return (
     <Container>
       <h2>Get in touch with me using the form below.</h2>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} method="POST">
         <input
           placeholder="Email"
           id="email"

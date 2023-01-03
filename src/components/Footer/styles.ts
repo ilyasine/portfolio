@@ -9,7 +9,6 @@ export const Container = styled.footer`
   align-items: center;
   justify-content: space-between;
 
-
   .logo{
     font-size: 2.8rem;
   }
@@ -56,6 +55,11 @@ export const Container = styled.footer`
     padding: 4rem 1rem;
     p{
       font-size: 1.2rem;
+    }
+  }
+  @media(max-width: 400px){
+    p{
+      flex-direction: column;
     }
   }
 `
