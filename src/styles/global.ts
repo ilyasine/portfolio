@@ -84,7 +84,17 @@ export const GlobalStyle = createGlobalStyle`
   }
   ::selection {
     background: rgba(255, 217, 0, 0.459);
+    background: var(--orange);
+    //color: #fff;
   }
+
+  .orangec{
+      ::selection {
+      background: rgba(255, 217, 0, 0.459);
+      background: var(--orange);
+      color: #fff;
+      }
+    }
 
   ul, li {
     text-decoration: none;
@@ -111,7 +121,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body, input, textarea, button{
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: 400;
   }
 

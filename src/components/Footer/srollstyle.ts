@@ -23,9 +23,9 @@ export const Scrolltop =  styled.div`
     -webkit-transition: all .4s ease-in-out , bottom 1s ease-out ; 
   }
   &:hover {
-    filter: brightness(1.1) ;
-    transform: scale(1.05);
-    -webkit-transform: scale(1.05);
+    filter: brightness(0.8);
+    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
     transition: all .4s ease-in-out ;
     -webkit-transition: all .4s ease-in-out ;
   }

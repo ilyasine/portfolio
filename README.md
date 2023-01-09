@@ -9,4 +9,3 @@ This is my website to introduce myself, here I put my skills, portfolio, and con
 - React
 - Typescript
 - Styled Components
-
