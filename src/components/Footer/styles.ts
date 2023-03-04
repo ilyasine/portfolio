@@ -45,7 +45,7 @@ export const Container = styled.footer`
     }
   }
 
-  @media(max-width: 912px){
+  @media(max-width: 1000px){
     padding: 4rem 10rem;
     flex-direction: column;
     gap: 2rem;

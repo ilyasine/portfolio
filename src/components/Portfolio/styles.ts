@@ -11,12 +11,16 @@ export const Container = styled.section`
   }
 
   .projects{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px , 1fr));
-    grid-template-rows: auto;
     gap: 2rem;
     padding: 1rem;
     overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .projectdiv {
+      flex: 0 0 calc(33.33% - 20px);
+    }
 
     .project{
       padding: 2rem 1.8rem;
@@ -93,14 +97,20 @@ export const Container = styled.section`
   }
 
 
-  @media (max-width: 1054px){
+  @media (max-width: 1100px){
     .projects{
-      grid-template-columns: repeat(auto-fit,minmax(300px ,1fr));
+      .projectdiv {
+      flex: 0 0 calc(50% - 20px);
+      }
     }
+   
   }
-  @media (max-width: 500px){
+  @media (max-width: 800px){
     .projects{
-      grid-template-columns: 1fr;
+      .projectdiv {
+      flex: 0 0 calc(100% - 20px);
+      }
     }
+    
   }
 `
