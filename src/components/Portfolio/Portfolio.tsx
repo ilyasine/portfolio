@@ -50,31 +50,35 @@ export function Portfolio() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#ffb943 " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
-                <a href="https://github.com/yasinedr/wordpress-themes/tree/master/reponses-photo" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="GitHub" />
+                <a href="https://github.com/yasinedr/kodingschools" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" />
                 </a>
-                <a href="https://www.reponsesphoto.fr/" target="_blank" rel="noreferrer">
-                  <img src={externalLinkIcon} alt="Visitar site" />
+                <a href="https://kodingschools.com/" target="_blank" rel="noreferrer">
+                  <img src={externalLinkIcon} alt="Visit site" />
                 </a>
               </div>
+              <img src={GoldStar} style={{width: '36px'}} alt="Star" />
             </header>
             <div className="body">
-              <h3>Reponses Photo</h3>
-              <p>Customized WordPress theme, with buit in solutions tailored to client needs, custom shortcodes, metas,Sidebar, blocks, event post type ...
-              </p>
+              <h3>Koding Schools</h3>
+             <p>KodingSchools is a pioneering online E-learning platform specifically designed for schools. As the first of its kind, it offers a unique and comprehensive learning experience that bridges the gap between traditional classroom education and the digital world.</p> 
+              <p>KodingSchools is powered by six custom-made plugins, I've built from scratch, each contributing to the robust and user-friendly nature of the platform. These plugins, combined with meticulously crafted themes, provide an intuitive and engaging interface that enhances the learning process.</p>
             </div>
             <footer>
               <ul className="tech-list">
                 <li>Html</li>
                 <li>CSS</li>
                 <li>Javascript</li>
-                <li>Sass</li>
+                <li>jQuery</li>
+                <li>WordPress</li>
                 <li>Php</li>
+                <li>MySql</li>
+                <li>Ajax</li>
               </ul>
             </footer>
           </div>
         </ScrollAnimation>
-
+        
         <ScrollAnimation className="projectdiv" animateIn="flipInX">
           <div className="project">
             <header>
@@ -106,6 +110,36 @@ export function Portfolio() {
                 <li>WordPress</li>
                 <li>Php</li>
                 <li>MySql</li>    
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation className="projectdiv" animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#ffb943 " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://github.com/yasinedr/wordpress-themes/tree/master/reponses-photo" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="GitHub" />
+                </a>
+                <a href="https://www.reponsesphoto.fr/" target="_blank" rel="noreferrer">
+                  <img src={externalLinkIcon} alt="Visitar site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Reponses Photo</h3>
+              <p>Customized WordPress theme, with buit in solutions tailored to client needs, custom shortcodes, metas,Sidebar, blocks, event post type ...
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Html</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Sass</li>
+                <li>Php</li>
               </ul>
             </footer>
           </div>
@@ -180,24 +214,33 @@ export function Portfolio() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#ffb943 " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
-                <a href="https://github.com/yasinedr/benefit-calculator" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="GitHub" />
+                {/* <a href="https://github.com/yasinedr/wordpress-themes/tree/master/elmokristudio" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" />
                 </a>
+                <a href="https://elmokristudio.ilyasine.com/" target="_blank" rel="noreferrer">
+                  <img src={externalLinkIcon} alt="Visit site" />
+                </a> */}
+                <h3 style={{color: '#ffb943'}}>Coming soon</h3>
               </div>
+              <img src={GoldStar} style={{width: '36px'}} alt="Star" />
             </header>
             <div className="body">
-              <h3>Benefit Calculator</h3>
-              <p>Simple WordPress plugin that calculates the benefit for customers :
+              <h3>Sell Product Anywhere</h3>
+              <p><strong>Sell Product Anywhere</strong> is a revolutionary WordPress plugin designed to enhance the shopping experience on your WooCommerce site. 
               </p>
-              <p>
-              The Administrator can add a new transaction by entering a customer name and the amount attached to it ; the plugin, then, will calculate the profit & loss, All data are inserted in the database with Ajax without refreshing the page, The Administrator can either edit or delete transaction.
-              </p>
+              <p>Developed by Yassine Idrissi, this plugin allows customers to add products to their cart from anywhere on your website, providing a seamless and convenient shopping experience. </p>
+              <p>No longer do customers need to navigate to specific product pages to make a purchase. With Sell Product Anywhere, every page is a storefront, making shopping quicker and easier than ever before. Experience the future of online shopping with Sell Product Anywhere.</p>
             </div>
             <footer>
               <ul className="tech-list">
+                <li>Html</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>jQuery</li>
+                <li>WordPress</li>
                 <li>Php</li>
-                <li>Mysql</li>
-                <li>Ajax</li>
+                <li>MySql</li>
+                <li>LottieFiles</li>
               </ul>
             </footer>
           </div>
