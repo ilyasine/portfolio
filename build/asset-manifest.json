@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.43c86f1c.css",
-    "main.js": "/static/js/main.4dadfec3.js",
+    "main.js": "/static/js/main.0a0ce171.js",
     "static/media/profile-mountain.jpg": "/static/media/profile-mountain.754a579c0ae8ef1985c2.jpg",
-    "static/media/CV_YassineIdrissi.pdf": "/static/media/CV_YassineIdrissi.d191f2e890ebde1184cf.pdf",
+    "static/media/CV_YassineIdrissi.pdf": "/static/media/CV_YassineIdrissi.4d66fdca7f404cea913b.pdf",
+    "static/media/RESUME_YassineIdrissi.pdf": "/static/media/RESUME_YassineIdrissi.99f38b09da053acea2ad.pdf",
     "static/media/HeroImage.png": "/static/media/HeroImage.bf892cc43b2e0c2332fd.png",
     "static/media/seo-icon.svg": "/static/media/seo-icon.640efc68bade7aac70dff00ad880c859.svg",
     "static/media/github.png": "/static/media/github.a855c3975c028d8069f5.png",
@@ -27,13 +28,15 @@
     "static/media/vscode-icon.svg": "/static/media/vscode-icon.3001bc63a45d488b7d2c332e4a2059ad.svg",
     "static/media/js-icon.svg": "/static/media/js-icon.ffcf56dc5498f7bbbec802191c740e5f.svg",
     "static/media/github-icon.svg": "/static/media/github-icon.b733fb12cb665f30988dbc522dd40f49.svg",
+    "static/media/en-flag.svg": "/static/media/en-flag.583699d9c65e0d7801742d879d53b007.svg",
     "static/media/external-link-icon.svg": "/static/media/external-link-icon.e5f54e725f027cf7f3e6c481893eb96f.svg",
+    "static/media/fr-flag.svg": "/static/media/fr-flag.71349a9961dd8ef26e8e9df8e03c0ef1.svg",
     "static/media/Gold_Star.svg": "/static/media/Gold_Star.db703d111728fab5ccd2c1d4e643125b.svg",
     "main.43c86f1c.css.map": "/static/css/main.43c86f1c.css.map",
-    "main.4dadfec3.js.map": "/static/js/main.4dadfec3.js.map"
+    "main.0a0ce171.js.map": "/static/js/main.0a0ce171.js.map"
   },
   "entrypoints": [
     "static/css/main.43c86f1c.css",
-    "static/js/main.4dadfec3.js"
+    "static/js/main.0a0ce171.js"
   ]
 }

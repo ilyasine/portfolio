@@ -31,6 +31,14 @@ export const Container = styled.header`
 
       &.button{
         padding: 0.6rem 5rem;
+        &#resume{
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          width: 100%;
+          max-width: 140px;
+          gap: 15px;
+        }
       }
 
       &:hover{

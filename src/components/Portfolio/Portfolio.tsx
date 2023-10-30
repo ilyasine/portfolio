@@ -225,6 +225,47 @@ export function Portfolio() {
               <img src={GoldStar} style={{width: '36px'}} alt="Star" />
             </header>
             <div className="body">
+              <h3>Learndash Course Review</h3>
+              <p><strong>Learndash Course Review</strong> is a WordPress plugin that revolutionizes the LearnDash experience by incorporating a comprehensive review, rating, feedback, and survey system.
+              </p>
+              <p>This plugin allows for the display of ratings and student reviews, boosting course relevance and credibility
+              </p>
+              <p>It also includes a feedback system for course improvement, and a review reminder notification to encourage student participation.
+              </p>
+              <p>Additionally, it offers features like image/video reviews and restricts feedback to students who’ve completed the course.
+              </p>             
+             
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Html</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>jQuery</li>
+                <li>WordPress</li>
+                <li>Php</li>
+                <li>MySql</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation className="projectdiv" animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#ffb943 " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                {/* <a href="https://github.com/yasinedr/wordpress-themes/tree/master/elmokristudio" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" />
+                </a>
+                <a href="https://elmokristudio.ilyasine.com/" target="_blank" rel="noreferrer">
+                  <img src={externalLinkIcon} alt="Visit site" />
+                </a> */}
+                <h3 style={{color: '#ffb943'}}>Coming soon</h3>
+              </div>
+              <img src={GoldStar} style={{width: '36px'}} alt="Star" />
+            </header>
+            <div className="body">
               <h3>Sell Product Anywhere</h3>
               <p><strong>Sell Product Anywhere</strong> is a revolutionary WordPress plugin designed to enhance the shopping experience on your WooCommerce site. 
               </p>
@@ -240,7 +281,6 @@ export function Portfolio() {
                 <li>WordPress</li>
                 <li>Php</li>
                 <li>MySql</li>
-                <li>LottieFiles</li>
               </ul>
             </footer>
           </div>

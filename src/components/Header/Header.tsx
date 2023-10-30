@@ -4,6 +4,9 @@ import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
 
 import CV from '../../assets/CV_YassineIdrissi.pdf'
+import RESUME from '../../assets/RESUME_YassineIdrissi.pdf'
+import EN from '../../assets/en-flag.svg'
+import FR from '../../assets/fr-flag.svg'
 export function Header() {
   const [isactive, setActive] = useState(false)
 
@@ -50,8 +53,13 @@ export function Header() {
           <NavHashLink smooth to="#contact" onClick={closeMenu}>
             contact
           </NavHashLink>
-          <a href={CV} download className="button">
-            CV
+          <a href={CV} download className="button" id="resume">
+            <img src={FR} style={{width: '22px'}}  alt="FR" title="Télécharger le CV en français" />
+            <span>CV</span>
+          </a>
+          <a href={RESUME} download className="button" id="resume">    
+            <img src={EN} style={{width: '22px'}} alt="EN" title="Download Resume in English" />
+            <span>Resume</span>
           </a>
         </nav>
 
