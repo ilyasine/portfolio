@@ -14,6 +14,8 @@ import seoIcon from "../../assets/seo-icon.svg";
 import wordpressIcon from "../../assets/wordpress-icon.svg";
 import phpIcon from "../../assets/php-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
+import laravelIcon from "../../assets/laravel-icon.svg";
+import symfonyIcon from "../../assets/symfony-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import sassIcon from "../../assets/sass-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
@@ -155,6 +157,16 @@ export function Main(){
             "image": [
               {
                 "src": boostrapIcon,
+                "width": 20,
+                "height": 20
+              },
+              {
+                "src": laravelIcon,
+                "width": 20,
+                "height": 20
+              },
+              {
+                "src": symfonyIcon,
                 "width": 20,
                 "height": 20
               },

@@ -120,6 +120,40 @@ export function Portfolio() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#ffb943 " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
+                <a href="https://github.com/yasinedr/Patient-Management-System" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="GitHub" />
+                </a>
+                <a href="https://pr.rabii.ilyasine.com/" target="_blank" rel="noreferrer">
+                  <img src={externalLinkIcon} alt="Visitar site" />
+                </a>
+              </div>
+              <img src={GoldStar} style={{width: '36px'}} alt="Star" />
+            </header>
+            <div className="body">
+              <h3>Patient Management System</h3>
+              <p>a complete patient management system built with Laravel for doctor to manage their patient appointments, patient details and also manage billing of particular patient
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Html</li>
+                <li>CSS</li>
+                <li>Sass</li>
+                <li>JavaScript</li>
+                <li>Vue</li>             
+                <li>PHP</li>
+                <li>MVC</li>
+                <li>Laravel</li>           
+                <li>MYSQL</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+        <ScrollAnimation className="projectdiv" animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#ffb943 " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
                 <a href="https://github.com/yasinedr/wordpress-themes/tree/master/reponses-photo" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="GitHub" />
                 </a>
@@ -144,6 +178,8 @@ export function Portfolio() {
             </footer>
           </div>
         </ScrollAnimation>
+        
+
 
         <ScrollAnimation className="projectdiv" animateIn="flipInX">
           <div className="project">
