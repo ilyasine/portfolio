@@ -12,8 +12,8 @@ export function Footer() {
   return (
     <Container className="footer">
       <a href="/" className="logo">
-          <span>yasine</span>
-          <span className='dr'>dr</span>
+        <span className='il'>il</span>
+        <span>yasine</span>         
       </a>
       <div>
         <p>
@@ -32,7 +32,7 @@ export function Footer() {
         </a>
 
         <a
-          href="https://github.com/yasinedr"
+          href="https://github.com/ilyasine"
           target="_blank"
           rel="noreferrer"
         >
@@ -48,7 +48,7 @@ export function Footer() {
         </a>
 
         <a
-          href="https://profiles.wordpress.org/yasinedr/"
+          href="https://profiles.wordpress.org/ilyasine/"
           target="_blank"
           rel="noreferrer"
         >

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.43c86f1c.css",
-    "main.js": "/static/js/main.40586788.js",
+    "main.js": "/static/js/main.b6027ed3.js",
     "static/media/profile-mountain.jpg": "/static/media/profile-mountain.754a579c0ae8ef1985c2.jpg",
     "static/media/CV_YassineIdrissi.pdf": "/static/media/CV_YassineIdrissi.1d3060eca2bc2d5b4b51.pdf",
     "static/media/RESUME_YassineIdrissi.pdf": "/static/media/RESUME_YassineIdrissi.67b7f79ccff9d06c3502.pdf",
@@ -35,10 +35,10 @@
     "static/media/fr-flag.svg": "/static/media/fr-flag.71349a9961dd8ef26e8e9df8e03c0ef1.svg",
     "static/media/Gold_Star.svg": "/static/media/Gold_Star.db703d111728fab5ccd2c1d4e643125b.svg",
     "main.43c86f1c.css.map": "/static/css/main.43c86f1c.css.map",
-    "main.40586788.js.map": "/static/js/main.40586788.js.map"
+    "main.b6027ed3.js.map": "/static/js/main.b6027ed3.js.map"
   },
   "entrypoints": [
     "static/css/main.43c86f1c.css",
-    "static/js/main.40586788.js"
+    "static/js/main.b6027ed3.js"
   ]
 }
