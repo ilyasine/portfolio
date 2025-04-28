@@ -12,6 +12,7 @@ import jsIcon from "../../assets/js-icon.svg";
 import mysqlIcon from "../../assets/mysql-icon.svg";
 import seoIcon from "../../assets/seo-icon.svg";
 import wordpressIcon from "../../assets/wordpress-icon.svg";
+import drupalIcon from "../../assets/drupal-icon.svg";
 import phpIcon from "../../assets/php-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import laravelIcon from "../../assets/laravel-icon.svg";
@@ -191,7 +192,7 @@ export function Main(){
                 "height": 20
               },
               {
-                "src": wordpressIcon,
+                "src": drupalIcon,
                 "width": 20,
                 "height": 20
               },
@@ -211,6 +212,11 @@ export function Main(){
                 "height": 20
               },
               {
+                "src": wordpressIcon,
+                "width": 20,
+                "height": 20
+              },
+              {
                 "src": seoIcon,
                 "width": 60,
                 "height": 40
@@ -227,6 +233,11 @@ export function Main(){
               },
               {
                 "src": typescriptIcon,
+                "width": 20,
+                "height": 20
+              },
+              {
+                "src": drupalIcon,
                 "width": 20,
                 "height": 20
               },

@@ -5,6 +5,7 @@ import linkedinIcon from '../../assets/linkedin.png'
 import githubIcon from '../../assets/github.png'
 import slackIcon from '../../assets/slack-icon.svg'
 import wordpressIcon from '../../assets/wordpress-icon.svg'
+import drupalIcon from '../../assets/drupal-icon.svg'
 import Topscroll from './Topscroll'
 
 
@@ -53,6 +54,14 @@ export function Footer() {
           rel="noreferrer"
         >
           <img src={wordpressIcon} alt="WordPress" title='WordPress' />
+        </a>
+
+        <a
+          href="https://www.drupal.org/u/ilyasine"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={drupalIcon} alt="Drupal" title='Drupal' />
         </a>
       </div>
       <Topscroll />

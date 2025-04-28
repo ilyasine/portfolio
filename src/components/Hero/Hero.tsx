@@ -17,7 +17,7 @@ export function Hero() {
           <h3 className="orangec">Full Stack PHP Developer</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">I am a Senior Full Stack PHP Developer with great passion for WordPress.</p>
+          <p className="small-resume">I am a Senior Full Stack PHP Developer with great passion for WordPress & Drupal.</p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
