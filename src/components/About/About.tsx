@@ -10,10 +10,11 @@ import typescriptIcon from "../../assets/typescript-icon.svg";
 import wordpressIcon from "../../assets/wordpress-icon.svg";
 import drupalIcon from "../../assets/drupal-icon.svg";
 import phpIcon from "../../assets/php-icon.svg";
+import pythonIcon from "../../assets/python-icon.svg";
 import seoIcon from "../../assets/seo-icon.svg";
 import gitIcon from "../../assets/github-logo.svg";
 import sqlIcon from "../../assets/mysql-icon.svg";
-import laravelIcon from "../../assets/laravel-icon.svg";
+import shopifyIcon from "../../assets/shopify-icon.svg";
 import symfonyIcon from "../../assets/symfony-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -26,14 +27,13 @@ export function About(){
           <h2>About me</h2>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
-          <p>Hi, welcome to my profile 😉. My name is Yassine Idrissi, and I'm a Senior Full Stack PHP Developer with a deep passion for crafting innovative web solutions.</p>
+          <p>Hi, welcome to my profile 😉. My name is Yassine Idrissi, and I'm a Senior Full Stack PHP Developer with a deep passion for crafting innovative AI-driven web solutions.</p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000} style={{marginTop: "2rem"}}>
           <p>PHP development is not just my daily business but my lifelong passion. I actively contribute to the open-source community through support, free plugins, and sharing my knowledge with others.</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}>
-
           <p>Over the years, I've honed my skills by working on a wide array of projects, either individually or as part of a team. My experience spans across:</p>
           <ul style={{listStyle: 'inside'}}>
             <li style={{listStyle: 'inside', fontSize: '18px', margin: '5px auto'}}>Crafting tailored WordPress themes, plugins, and Gutenberg blocks.</li>
@@ -41,18 +41,22 @@ export function About(){
             <li style={{listStyle: 'inside', fontSize: '18px', marginBottom: '5px'}}>Building robust web applications with Laravel and Symfony frameworks.</li>
           </ul>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.8 * 1000}>
 
-          <p>My work philosophy revolves around creating highly individualized, state-of-the-art web solutions that cater to your unique needs, blending technical precision with creativity. Whether it's WordPress, Drupal, Symfony or Laravel, I make it all possible—and love every moment of it.</p>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.8 * 1000}>
+          <p>Alongside this, I’m channeling my expertise into the world of artificial intelligence, developing solutions that personalize user experiences and optimize business outcomes.</p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={1 * 1000}>
+          <p>My work philosophy revolves around creating highly individualized, state-of-the-art web solutions that cater to your unique needs, blending technical precision with creativity. Whether it's WordPress, Drupal, Symfony or AI, I make it all possible—and love every moment of it.</p>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="fadeInLeft" delay={1.2* 1000}>
           <h3 className="orangec">Here are my main skills:</h3>
         </ScrollAnimation>
 
           <div className="hard-skills">
 
-            <div className="hability">
+          <div className="hability">
               <ScrollAnimation animateIn="fadeInUp" delay={(0.1 * 1000) + 1000}>
                 <img src={phpIcon} style={{width: '60px'}} alt="PHP" title="PHP" />
               </ScrollAnimation>
@@ -70,15 +74,15 @@ export function About(){
               </ScrollAnimation>
           </div>
           
-          {/* <div className="hability">
+          {<div className="hability">
               <ScrollAnimation animateIn="fadeInUp" delay={(0.4 * 1000) + 1000}>
-                <img src={laravelIcon} alt="Laravel" title="Laravel" />
+                 <img src={symfonyIcon} alt="symfony" title="symfony" />
               </ScrollAnimation>
-          </div> */}
+          </div>}
           
-          <div className="hability">
+            <div className="hability">
               <ScrollAnimation animateIn="fadeInUp" delay={(0.5 * 1000) + 1000}>
-                <img src={symfonyIcon} alt="symfony" title="symfony" />
+                <img src={pythonIcon} alt="python" title="python" />
               </ScrollAnimation>
             </div>
 

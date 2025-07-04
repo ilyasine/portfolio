@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.43c86f1c.css",
-    "main.js": "/static/js/main.a2a01a4c.js",
+    "main.js": "/static/js/main.394c9cd8.js",
     "static/media/profile-mountain.jpg": "/static/media/profile-mountain.754a579c0ae8ef1985c2.jpg",
     "static/media/CV_YassineIdrissi.pdf": "/static/media/CV_YassineIdrissi.cb014d6d8f0a526f863a.pdf",
     "static/media/RESUME_YassineIdrissi.pdf": "/static/media/RESUME_YassineIdrissi.b8335d126933f72f2b1d.pdf",
@@ -15,9 +15,8 @@
     "static/media/github-logo.svg": "/static/media/github-logo.3657a04f358cf4893c41a51d1ed3bccd.svg",
     "static/media/node-icon.svg": "/static/media/node-icon.3dc364b8e9beb3561620274aea4f0844.svg",
     "static/media/typescript-icon.svg": "/static/media/typescript-icon.17d5e87eac2c9d1dc722ce1e0b60d5df.svg",
-    "static/media/bootstrap-icon.svg": "/static/media/bootstrap-icon.be374cc9bd654654918df2362bcfb240.svg",
     "static/media/react-icon.svg": "/static/media/react-icon.f1484e295933af0e748d6a01b05a8361.svg",
-    "static/media/laravel-icon.svg": "/static/media/laravel-icon.ba995bd47e3a7cc141cc1c9aaa1ac583.svg",
+    "static/media/python-icon.svg": "/static/media/python-icon.4298525c028749eb4fa154f8f5bd1931.svg",
     "static/media/symfony-icon.svg": "/static/media/symfony-icon.70e9abd1eb62b349b0f123979e4c2262.svg",
     "static/media/drupal-icon.svg": "/static/media/drupal-icon.746fd0f1296502759871a51651610699.svg",
     "index.html": "/index.html",
@@ -36,10 +35,10 @@
     "static/media/fr-flag.svg": "/static/media/fr-flag.71349a9961dd8ef26e8e9df8e03c0ef1.svg",
     "static/media/Gold_Star.svg": "/static/media/Gold_Star.db703d111728fab5ccd2c1d4e643125b.svg",
     "main.43c86f1c.css.map": "/static/css/main.43c86f1c.css.map",
-    "main.a2a01a4c.js.map": "/static/js/main.a2a01a4c.js.map"
+    "main.394c9cd8.js.map": "/static/js/main.394c9cd8.js.map"
   },
   "entrypoints": [
     "static/css/main.43c86f1c.css",
-    "static/js/main.a2a01a4c.js"
+    "static/js/main.394c9cd8.js"
   ]
 }

@@ -21,6 +21,7 @@ import reactIcon from "../../assets/react-icon.svg";
 import sassIcon from "../../assets/sass-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vscodeIcon from "../../assets/vscode-icon.svg";
+import pythonIcon from "../../assets/python-icon.svg";
 
 
 export function Main(){
@@ -155,17 +156,7 @@ export function Main(){
               "value": "*",
               "weight": "400"
             },
-            "image": [
-              {
-                "src": boostrapIcon,
-                "width": 20,
-                "height": 20
-              },
-              {
-                "src": laravelIcon,
-                "width": 20,
-                "height": 20
-              },
+            "image": [           
               {
                 "src": symfonyIcon,
                 "width": 20,
@@ -188,6 +179,11 @@ export function Main(){
               },
               {
                 "src": wordpressIcon,
+                "width": 20,
+                "height": 20
+              },
+              {
+                "src": pythonIcon,
                 "width": 20,
                 "height": 20
               },
