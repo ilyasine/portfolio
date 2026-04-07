@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.43c86f1c.css",
-    "main.js": "/static/js/main.394c9cd8.js",
+    "main.js": "/static/js/main.d5f710f0.js",
     "static/media/profile-mountain.jpg": "/static/media/profile-mountain.754a579c0ae8ef1985c2.jpg",
-    "static/media/CV_YassineIdrissi.pdf": "/static/media/CV_YassineIdrissi.cb014d6d8f0a526f863a.pdf",
-    "static/media/RESUME_YassineIdrissi.pdf": "/static/media/RESUME_YassineIdrissi.b8335d126933f72f2b1d.pdf",
+    "static/media/CV_YassineIdrissi.pdf": "/static/media/CV_YassineIdrissi.757c0f1df1e962bcc6fa.pdf",
+    "static/media/RESUME_YassineIdrissi.pdf": "/static/media/RESUME_YassineIdrissi.d287228f6d579709a47c.pdf",
     "static/media/HeroImage.png": "/static/media/HeroImage.bf892cc43b2e0c2332fd.png",
     "static/media/seo-icon.svg": "/static/media/seo-icon.640efc68bade7aac70dff00ad880c859.svg",
     "static/media/github.png": "/static/media/github.a855c3975c028d8069f5.png",
@@ -13,9 +13,9 @@
     "static/media/php-icon.svg": "/static/media/php-icon.6eb8d8dac8bb02fda4efd3a811b2a95f.svg",
     "static/media/mysql-icon.svg": "/static/media/mysql-icon.43de11b606ebbf08dc0ff0a2c482c686.svg",
     "static/media/github-logo.svg": "/static/media/github-logo.3657a04f358cf4893c41a51d1ed3bccd.svg",
-    "static/media/node-icon.svg": "/static/media/node-icon.3dc364b8e9beb3561620274aea4f0844.svg",
     "static/media/typescript-icon.svg": "/static/media/typescript-icon.17d5e87eac2c9d1dc722ce1e0b60d5df.svg",
     "static/media/react-icon.svg": "/static/media/react-icon.f1484e295933af0e748d6a01b05a8361.svg",
+    "static/media/laravel-icon.svg": "/static/media/laravel-icon.ba995bd47e3a7cc141cc1c9aaa1ac583.svg",
     "static/media/python-icon.svg": "/static/media/python-icon.4298525c028749eb4fa154f8f5bd1931.svg",
     "static/media/symfony-icon.svg": "/static/media/symfony-icon.70e9abd1eb62b349b0f123979e4c2262.svg",
     "static/media/drupal-icon.svg": "/static/media/drupal-icon.746fd0f1296502759871a51651610699.svg",
@@ -29,16 +29,17 @@
     "static/media/css-icon.svg": "/static/media/css-icon.60a6c50d5a470990f63ee17a3bbd9178.svg",
     "static/media/vscode-icon.svg": "/static/media/vscode-icon.3001bc63a45d488b7d2c332e4a2059ad.svg",
     "static/media/js-icon.svg": "/static/media/js-icon.ffcf56dc5498f7bbbec802191c740e5f.svg",
+    "static/media/vue-icon.svg": "/static/media/vue-icon.c286d2da48ffbf281f407b0c4c94271f.svg",
     "static/media/github-icon.svg": "/static/media/github-icon.b733fb12cb665f30988dbc522dd40f49.svg",
     "static/media/en-flag.svg": "/static/media/en-flag.583699d9c65e0d7801742d879d53b007.svg",
     "static/media/external-link-icon.svg": "/static/media/external-link-icon.e5f54e725f027cf7f3e6c481893eb96f.svg",
     "static/media/fr-flag.svg": "/static/media/fr-flag.71349a9961dd8ef26e8e9df8e03c0ef1.svg",
     "static/media/Gold_Star.svg": "/static/media/Gold_Star.db703d111728fab5ccd2c1d4e643125b.svg",
     "main.43c86f1c.css.map": "/static/css/main.43c86f1c.css.map",
-    "main.394c9cd8.js.map": "/static/js/main.394c9cd8.js.map"
+    "main.d5f710f0.js.map": "/static/js/main.d5f710f0.js.map"
   },
   "entrypoints": [
     "static/css/main.43c86f1c.css",
-    "static/js/main.394c9cd8.js"
+    "static/js/main.d5f710f0.js"
   ]
 }
