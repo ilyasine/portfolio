@@ -18,6 +18,7 @@ import nodeIcon from "../../assets/node-icon.svg";
 import laravelIcon from "../../assets/laravel-icon.svg";
 import symfonyIcon from "../../assets/symfony-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
+import vueIcon from "../../assets/vue-icon.svg";
 import sassIcon from "../../assets/sass-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vscodeIcon from "../../assets/vscode-icon.svg";
@@ -163,6 +164,11 @@ export function Main(){
                 "height": 20
               },
               {
+                "src": laravelIcon,
+                "width": 20,
+                "height": 20
+              },
+              {
                 "src": cssIcon,
                 "width": 20,
                 "height": 20
@@ -193,7 +199,7 @@ export function Main(){
                 "height": 20
               },
               {
-                "src": nodeIcon,
+                "src": vueIcon,
                 "width": 20,
                 "height": 20
               },

@@ -14,7 +14,8 @@ import pythonIcon from "../../assets/python-icon.svg";
 import seoIcon from "../../assets/seo-icon.svg";
 import gitIcon from "../../assets/github-logo.svg";
 import sqlIcon from "../../assets/mysql-icon.svg";
-import shopifyIcon from "../../assets/shopify-icon.svg";
+import vueIcon from "../../assets/vue-icon.svg";
+import laravelIcon from "../../assets/laravel-icon.svg";
 import symfonyIcon from "../../assets/symfony-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -47,7 +48,7 @@ export function About(){
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={1 * 1000}>
-          <p>My work philosophy revolves around creating highly individualized, state-of-the-art web solutions that cater to your unique needs, blending technical precision with creativity. Whether it's WordPress, Drupal, Symfony or AI, I make it all possible—and love every moment of it.</p>
+          <p>My work philosophy revolves around creating highly individualized, state-of-the-art web solutions that cater to your unique needs, blending technical precision with creativity. Whether it's WordPress, Laravel, Drupal, Symfony or AI, I make it all possible—and love every moment of it.</p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={1.2* 1000}>
@@ -70,66 +71,78 @@ export function About(){
           
           <div className="hability">
               <ScrollAnimation animateIn="fadeInUp" delay={(0.3 * 1000) + 1000}>
+                <img src={laravelIcon} alt="Laravel" title="Laravel" />
+              </ScrollAnimation>
+          </div>
+          
+          <div className="hability">
+              <ScrollAnimation animateIn="fadeInUp" delay={(0.4 * 1000) + 1000}>
                 <img src={drupalIcon} alt="Drupal" title="Drupal" />
               </ScrollAnimation>
           </div>
           
           {<div className="hability">
-              <ScrollAnimation animateIn="fadeInUp" delay={(0.4 * 1000) + 1000}>
+              <ScrollAnimation animateIn="fadeInUp" delay={(0.5 * 1000) + 1000}>
                  <img src={symfonyIcon} alt="symfony" title="symfony" />
               </ScrollAnimation>
           </div>}
           
             <div className="hability">
-              <ScrollAnimation animateIn="fadeInUp" delay={(0.5 * 1000) + 1000}>
+              <ScrollAnimation animateIn="fadeInUp" delay={(0.6 * 1000) + 1000}>
                 <img src={pythonIcon} alt="python" title="python" />
               </ScrollAnimation>
             </div>
 
             <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={(0.6 * 1000) + 1000}> 
+            <ScrollAnimation animateIn="fadeInUp" delay={(0.7 * 1000) + 1000}> 
               <img src={htmlIcon} alt="Html" title="Html" />
             </ScrollAnimation>
             </div>
 
             <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={(0.7 * 1000) + 1000}> 
+            <ScrollAnimation animateIn="fadeInUp" delay={(0.8 * 1000) + 1000}> 
               <img src={cssIcon} alt="Css" title="Css" />
             </ScrollAnimation>
             </div>
 
             <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={(0.8 * 1000) + 1000}> 
+            <ScrollAnimation animateIn="fadeInUp" delay={(0.9 * 1000) + 1000}> 
               <img src={jsIcon} alt="JavaScript" title="JavaScript" />
             </ScrollAnimation>
             </div>
       
             <div className="hability">
-              <ScrollAnimation animateIn="fadeInUp" delay={(0.9 * 1000) + 1000}>
+              <ScrollAnimation animateIn="fadeInUp" delay={(1 * 1000) + 1000}>
                 <img src={reactIcon} alt="React" title="React" />
+              </ScrollAnimation>
+            </div>
+      
+            <div className="hability">
+              <ScrollAnimation animateIn="fadeInUp" delay={(1.1* 1000) + 1000}>
+                <img src={vueIcon} alt="React" title="Vue" />
               </ScrollAnimation>
             </div>
 
             <div className="hability">
-              <ScrollAnimation animateIn="fadeInUp" delay={(1 * 1000) + 1000}>
+              <ScrollAnimation animateIn="fadeInUp" delay={(1.2 * 1000) + 1000}>
                 <img src={gitIcon} alt="Git" title="Git" />
               </ScrollAnimation>
             </div>
 
             <div className="hability">
-              <ScrollAnimation animateIn="fadeInUp" delay={(1.1 * 1000) + 1000}>
+              <ScrollAnimation animateIn="fadeInUp" delay={(1.3 * 1000) + 1000}>
                 <img src={sqlIcon} style={{width: '60px'}} alt="Mysql" title="Mysql" />
               </ScrollAnimation>
             </div>
 
             <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={(1.2 * 1000) + 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={(1.4 * 1000) + 1000}>
               <img src={seoIcon} style={{width: '60px'}} alt="Seo" title="Seo" />
             </ScrollAnimation>
             </div>
 
             <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={(1.3 * 1000) + 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={(1.5 * 1000) + 1000}>
               <img src={typescriptIcon} alt="Typescript" title="Typescript" />
             </ScrollAnimation>
             </div>
@@ -138,7 +151,7 @@ export function About(){
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
-          <img src={profileImage} alt="Imagem de perfil" />
+          <img src={profileImage} alt="profile Image" />
         </ScrollAnimation>
       </div>
     </Container>

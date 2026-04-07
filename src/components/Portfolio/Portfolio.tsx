@@ -17,6 +17,41 @@ export function Portfolio() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#ffb943 " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
+                <a href="https://github.com/ilyasine/haveconnection" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" />
+                </a>
+                <a href="https://haveconnection.ilyasine.com/" target="_blank" rel="noreferrer">
+                  <img src={externalLinkIcon} alt="Visit site" />
+                </a>
+              </div>
+              <img src={GoldStar} style={{ width: '36px' }} alt="Star" />
+            </header>
+            <div className="body">
+              <h3>HaveConnection</h3>
+              <p>HaveConnection is a GDPR‑compliant recruitment platform tailored for Islamic education, built on a scalable WordPress architecture. I developed three custom plugins, including a core vacancies management system that handles job posting, anonymized candidate matching, and secure application workflows.</p>
+              <p>The platform integrates WooCommerce for paid services such as CV review and VOG verification, with automated admin feedback loops. Custom caching, role‑based access, and multilingual support ensure performance, privacy, and usability across diverse schools and educators.</p>
+              <p>This solution combines technical precision with values‑driven design, streamlining recruitment while safeguarding trust.</p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Html</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>jQuery</li>
+                <li>WordPress</li>
+                <li>Php</li>
+                <li>MySql</li>
+                <li>Ajax</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation className="projectdiv" animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#ffb943 " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
                 {/* <a href="https://github.com/ilyasine/wordpress-themes/tree/master/elmokristudio" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" />
                 </a>
@@ -29,7 +64,7 @@ export function Portfolio() {
             </header>
             <div className="body">
               <h3>NeuroCartIQ</h3>
-              <p><strong>NeuroCartIQ</strong> is an AI-powered plugin (symfony sylius & extended for Drupal and WooCommerce) that transforms digital storefronts into intelligent, adaptive experiences. By analyzing real-time user interactions, behavioral signals, and sales data, it delivers hyper-personalized product recommendations while dynamically optimizing pricing strategies. Whether you're upselling, cross-selling, or fine-tuning margins, NeuroCartIQ helps e-commerce platforms maximize conversions and customer satisfaction—automatically.
+              <p><strong>NeuroCartIQ</strong> is an AI-powered Woocommerce plugin that transforms digital storefronts into intelligent, adaptive experiences. By analyzing real-time user interactions, behavioral signals, and sales data, it delivers hyper-personalized product recommendations while dynamically optimizing pricing strategies. Whether you're upselling, cross-selling, or fine-tuning margins, NeuroCartIQ helps e-commerce platforms maximize conversions and customer satisfaction—automatically.
               </p>
               <p>Built for developers and marketers alike, it seamlessly integrates with modern stacks and supports rule-based overrides, A/B testing, and affinity modeling. Think of it as your digital merchandiser and pricing strategist—rolled into one.
               </p>
@@ -37,11 +72,11 @@ export function Portfolio() {
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Symfony</li>
-                <li>AI</li>
-                <li>Python</li>
-                <li>SCSS</li>
-                <li>Javascript</li>
+                <li>Woocommerce API</li>
+                <li>AJAX</li>
+                <li>React</li>
+                <li>Tailwind CSS</li>
+                <li>Typescript</li>
                 <li>Php</li>
                 <li>MySql</li>
               </ul>
@@ -231,7 +266,7 @@ export function Portfolio() {
                 <a href="https://github.com/ilyasine/Patient-Management-System" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="GitHub" />
                 </a>
-                <a href="https://pr.rabii.ilyasine.com/" target="_blank" rel="noreferrer">
+                <a href="https://pms.ilyasine.com/" target="_blank" rel="noreferrer">
                   <img src={externalLinkIcon} alt="Visitar site" />
                 </a>
               </div>
@@ -246,11 +281,44 @@ export function Portfolio() {
               <ul className="tech-list">
                 <li>Html</li>
                 <li>CSS</li>
-                <li>Sass</li>
+                <li>Bootstrap</li>
                 <li>JavaScript</li>
                 <li>Vue</li>
                 <li>PHP</li>
-                <li>MVC</li>
+                <li>Laravel</li>
+                <li>MYSQL</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation className="projectdiv" animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#ffb943 " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://github.com/ilyasine/wersmak" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="GitHub" />
+                </a>
+                <a href="https://wersmak.com/" target="_blank" rel="noreferrer">
+                  <img src={externalLinkIcon} alt="Visitar site" />
+                </a>
+              </div>
+              <img src={GoldStar} style={{ width: '36px' }} alt="Star" />
+            </header>
+            <div className="body">
+              <h3>Wersmak</h3>
+              <p>Wersmak is a tailor-made eCommerce solution built on symfony exclusively for a smart product company whose mission—“Smart products for easier life”—drives every aspect of the platform’s innovation. As the sole seller, the business enjoys full control over a sleek product catalog enhanced by intelligent automation: AI-powered features such as behavior-based product recommendations, personalized pricing strategies, and predictive inventory insights ensure an optimized user experience and efficient operations. With a modular Symfony backbone, multilingual capabilities including Arabic RTL, and headless-ready architecture, Wersmak blends technical brilliance with a forward-thinking vision of smart commerce.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Html</li>
+                <li>CSS</li>
+                <li>Symfony</li>
+                <li>JavaScript</li>
+                <li>Vue</li>
+                <li>PHP</li>
                 <li>Laravel</li>
                 <li>MYSQL</li>
               </ul>
