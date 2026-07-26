@@ -10,6 +10,7 @@ export const Container = styled.section`
     margin-top: 1.6rem;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 1.8rem;
   }

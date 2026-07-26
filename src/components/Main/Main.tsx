@@ -23,6 +23,13 @@ import sassIcon from "../../assets/sass-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vscodeIcon from "../../assets/vscode-icon.svg";
 import pythonIcon from "../../assets/python-icon.svg";
+import shopifyIcon from "../../assets/shopify-icon.svg";
+import postgresqlIcon from "../../assets/postgresql-icon.svg";
+import api_integrationIcon from "../../assets/api-integration-icon.svg";
+import CI_CDIcon from "../../assets/CI-CD-icon.svg";
+import react_nativeIcon from "../../assets/react-native-icon.svg";
+import graphqlIcon from "../../assets/graphql-icon.svg";
+import NestJSIcon from "../../assets/NestJS-icon.svg";
 
 
 export function Main(){
@@ -225,6 +232,21 @@ export function Main(){
               },
               {
                 "src": reactIcon,
+                "width": 20,
+                "height": 20
+              },
+              {
+                "src": shopifyIcon,
+                "width": 20,
+                "height": 20
+              },
+              {
+                "src": api_integrationIcon,
+                "width": 20,
+                "height": 20
+              },
+              {
+                "src": react_nativeIcon,
                 "width": 20,
                 "height": 20
               },

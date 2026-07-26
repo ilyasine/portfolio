@@ -14,10 +14,10 @@ export function Hero() {
           <h1>Yassine Idrissi</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
-          <h3 className="orangec">Full Stack PHP Developer</h3>
+          <h3 className="orangec">Full Stack Web Developer</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">I am a Senior PHP Developer with great passion for WordPress.</p>
+          <p className="small-resume">Building scalable SaaS platforms, custom CMS solutions, and e‑commerce experiences with WordPress, Shopify & Cross‑Platform Apps</p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>

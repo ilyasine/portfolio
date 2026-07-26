@@ -1,23 +1,31 @@
 {
   "files": {
     "main.css": "/static/css/main.43c86f1c.css",
-    "main.js": "/static/js/main.d5f710f0.js",
+    "main.js": "/static/js/main.9b240bc1.js",
     "static/media/profile-mountain.jpg": "/static/media/profile-mountain.754a579c0ae8ef1985c2.jpg",
-    "static/media/CV_YassineIdrissi.pdf": "/static/media/CV_YassineIdrissi.757c0f1df1e962bcc6fa.pdf",
-    "static/media/RESUME_YassineIdrissi.pdf": "/static/media/RESUME_YassineIdrissi.d287228f6d579709a47c.pdf",
+    "static/media/CV_YassineIdrissi.pdf": "/static/media/CV_YassineIdrissi.5a5d618b684919bef07c.pdf",
+    "static/media/RESUME_YassineIdrissi.pdf": "/static/media/RESUME_YassineIdrissi.83780b15d5d8475b6ce7.pdf",
     "static/media/HeroImage.png": "/static/media/HeroImage.bf892cc43b2e0c2332fd.png",
+    "static/media/react-native-icon.svg": "/static/media/react-native-icon.743f48d5b41125c3001f18e291310edc.svg",
     "static/media/seo-icon.svg": "/static/media/seo-icon.640efc68bade7aac70dff00ad880c859.svg",
+    "static/media/CI-CD-icon.svg": "/static/media/CI-CD-icon.fd285cdb2d6c6b26275a775df6bf330f.svg",
+    "static/media/api-integration-icon.svg": "/static/media/api-integration-icon.3edecb5a5ec2d00bea4e76ec0eda9571.svg",
     "static/media/github.png": "/static/media/github.a855c3975c028d8069f5.png",
+    "static/media/postgresql-icon.svg": "/static/media/postgresql-icon.af012546039785db5c26f4115297747c.svg",
+    "static/media/NestJS-icon.svg": "/static/media/NestJS-icon.8cc42ce999a70203a1c22175f7a6bc52.svg",
     "static/media/linkedin.png": "/static/media/linkedin.f249b38224ca41a0b909.png",
+    "static/media/graphql-icon.svg": "/static/media/graphql-icon.042a5220853cf001324a67d1bf1ac6de.svg",
     "static/media/sass-icon.svg": "/static/media/sass-icon.8351205a93eafac2e392b26acf7580e1.svg",
     "static/media/php-icon.svg": "/static/media/php-icon.6eb8d8dac8bb02fda4efd3a811b2a95f.svg",
     "static/media/mysql-icon.svg": "/static/media/mysql-icon.43de11b606ebbf08dc0ff0a2c482c686.svg",
     "static/media/github-logo.svg": "/static/media/github-logo.3657a04f358cf4893c41a51d1ed3bccd.svg",
+    "static/media/node-icon.svg": "/static/media/node-icon.3dc364b8e9beb3561620274aea4f0844.svg",
     "static/media/typescript-icon.svg": "/static/media/typescript-icon.17d5e87eac2c9d1dc722ce1e0b60d5df.svg",
     "static/media/react-icon.svg": "/static/media/react-icon.f1484e295933af0e748d6a01b05a8361.svg",
     "static/media/laravel-icon.svg": "/static/media/laravel-icon.ba995bd47e3a7cc141cc1c9aaa1ac583.svg",
     "static/media/python-icon.svg": "/static/media/python-icon.4298525c028749eb4fa154f8f5bd1931.svg",
     "static/media/symfony-icon.svg": "/static/media/symfony-icon.70e9abd1eb62b349b0f123979e4c2262.svg",
+    "static/media/shopify-icon.svg": "/static/media/shopify-icon.bd4a4ffff34c3a22eaac3ec887e90890.svg",
     "static/media/drupal-icon.svg": "/static/media/drupal-icon.746fd0f1296502759871a51651610699.svg",
     "index.html": "/index.html",
     "static/media/wordpress-icon.svg": "/static/media/wordpress-icon.e4634128c32a2ae7ddf790fb47bef873.svg",
@@ -36,10 +44,10 @@
     "static/media/fr-flag.svg": "/static/media/fr-flag.71349a9961dd8ef26e8e9df8e03c0ef1.svg",
     "static/media/Gold_Star.svg": "/static/media/Gold_Star.db703d111728fab5ccd2c1d4e643125b.svg",
     "main.43c86f1c.css.map": "/static/css/main.43c86f1c.css.map",
-    "main.d5f710f0.js.map": "/static/js/main.d5f710f0.js.map"
+    "main.9b240bc1.js.map": "/static/js/main.9b240bc1.js.map"
   },
   "entrypoints": [
     "static/css/main.43c86f1c.css",
-    "static/js/main.d5f710f0.js"
+    "static/js/main.9b240bc1.js"
   ]
 }

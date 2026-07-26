@@ -64,7 +64,7 @@ export function Portfolio() {
             </header>
             <div className="body">
               <h3>NeuroCartIQ</h3>
-              <p><strong>NeuroCartIQ</strong> is an AI-powered Woocommerce plugin that transforms digital storefronts into intelligent, adaptive experiences. By analyzing real-time user interactions, behavioral signals, and sales data, it delivers hyper-personalized product recommendations while dynamically optimizing pricing strategies. Whether you're upselling, cross-selling, or fine-tuning margins, NeuroCartIQ helps e-commerce platforms maximize conversions and customer satisfaction—automatically.
+              <p><strong>NeuroCartIQ</strong> is an AI-powered Woocommerce plugin & shopify app that transforms digital storefronts into intelligent, adaptive experiences. By analyzing real-time user interactions, behavioral signals, and sales data, it delivers hyper-personalized product recommendations while dynamically optimizing pricing strategies. Whether you're upselling, cross-selling, or fine-tuning margins, NeuroCartIQ helps e-commerce platforms maximize conversions and customer satisfaction—automatically.
               </p>
               <p>Built for developers and marketers alike, it seamlessly integrates with modern stacks and supports rule-based overrides, A/B testing, and affinity modeling. Think of it as your digital merchandiser and pricing strategist—rolled into one.
               </p>
@@ -101,10 +101,14 @@ export function Portfolio() {
             </header>
             <div className="body">
               <h3>Sell Product Anywhere</h3>
-              <p><strong>Sell Product Anywhere</strong> is a revolutionary WordPress plugin designed to enhance the shopping experience on your WooCommerce site.
+              <p><strong>Sell Product Anywhere</strong> is a revolutionary solution designed to transform the shopping experience across <b>WordPress (WooCommerce)</b> and <b>Shopify</b> platforms.
               </p>
-              <p>Developed by Yassine Idrissi, this plugin allows customers to add products to their cart from anywhere on your website, providing a seamless and convenient shopping experience. </p>
-              <p>No longer do customers need to navigate to specific product pages to make a purchase. With Sell Product Anywhere, every page is a storefront, making shopping quicker and easier than ever before. Experience the future of online shopping with Sell Product Anywhere.</p>
+              <p>This tool empowers customers to add products to their cart from anywhere on your website — whether they’re browsing a blog post, reading an article, or exploring a landing page. Every page becomes a storefront, delivering a seamless and convenient shopping journey. </p>
+              <ul style={{ listStyleType: 'disc', marginBottom: '1rem' }}>
+                <li style={{ listStyleType: 'disc', marginLeft: '1rem' }}><b>For WooCommerce:</b> Implemented via shortcode, allowing products to be added to the cart without navigating to product pages.</li>
+                <li style={{ listStyleType: 'disc', marginLeft: '1rem' }}><b>For Shopify:</b> Delivered as a theme app extension, leveraging Liquid and the Cart API to inject “Add to Cart” functionality across any page. Merchants can configure universal cart buttons or widgets, ensuring customers can shop effortlessly without breaking the native checkout flow.</li>
+              </ul>
+              <p>With Sell Product Anywhere, shopping is quicker, easier, and more engaging than ever before. Experience the future of online commerce, where every interaction is an opportunity to buy.</p>
             </div>
             <footer>
               <ul className="tech-list">
